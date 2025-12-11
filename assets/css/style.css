@@ -1,0 +1,277 @@
+:root{
+    --Golden-brown:rgb(127, 118, 18);
+    --Green-color: rgb(4, 74, 4);
+    --white-color:  rgb(255, 255, 255);
+    --light-color: rgb(249, 245, 245);
+}
+
+.navbar {
+  list-style-type: none;
+  color: rgb(4, 74, 4);
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  overflow: hidden;
+
+}
+
+.login-button{
+    background-color: var(--Green-color);
+    color: aliceblue;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ticket-tabs{
+    display: flex;
+    margin-bottom: 2%;
+   
+
+}
+
+.tab-style {
+    background-color:var(--Golden-brown);
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    width: 20%; 
+    color:var(--white-color);
+}
+.flight-tab{
+    background-color:var(--white-color);
+    color: var(--Golden-brown);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin-left: 5px;
+}
+
+.slider-image{
+    position: relative;
+}
+.ticket-main-panel{
+    position: absolute;
+    background-color: var(--white-color);
+    left: 20%;
+    top: 80%;
+}
+
+.from-dropdown, 
+.to-dropdown, 
+.depature-date, 
+.return-date{
+    height: 2.5rem;
+    width: 12rem;
+    margin: 5px;
+    
+}
+
+.adult-dropdown, 
+.ticket-type-dropdown{
+    height: 2.5rem;
+    width: 20rem;
+    margin: 5px;
+}
+.currency-type-dropdown{
+    height: 2.5rem;
+    width: 6rem;
+    margin: 5px;
+    
+}
+.feature-list{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--Green-color);
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.service-main-panel{
+    background-color: var(--light-color);
+    height: 100%;
+}
+
+.service-card{
+    background-color: var(--white-color);
+    border-radius: 8%;
+    width: auto;
+    padding: 5px;
+    height: 70%;   
+}
+.news-main-heading,
+.best-offer-main-heading,
+.service-main-heading{
+    margin-left: 110px;
+    margin-top: 20px;
+    padding-top: 60px;
+    font-size: 3rem;
+    color: var(--Green-color);
+}
+.news-heading,
+.service-heading{
+    color: var(--Green-color);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.service-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.best-offer-main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.news-card{
+    background-color: var(--white-color);
+    width: 100vw;
+    padding: 5px;
+    height: 70vh;   
+}
+.learn-more-button{
+    color: var(--Green-color);
+    background-color: var(--white-color);
+    border-color: var(--Green-color);
+    padding: 10px;
+    font-weight: 600;
+}
+.sign-in-panel{
+    background-image:url("../images/snowy-mountainous-nature-landscape.jpg") ;
+    height: 50vh;
+    width: 42vw;
+    color: var(--white-color);
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 2%;
+}
+
+
+.download-app-panel{
+    background-image: linear-gradient(to right, rgb(155, 155, 98), rgb(2, 60, 2));
+    padding-left: 30px;
+    padding-top: 40px;
+    height: 46vh;
+    width: 42vw;
+    border-radius: 2%;
+}
+
+.iphone-image{
+
+    margin-top: .9rem;
+}
+.news-main-panel{
+    display: flex;
+
+}
+.signin-download-pannel{
+    background-color: var(--light-color);
+    height: 70vh;
+    display: flex;
+    margin-top: 4%;
+    padding: 2%;
+    justify-content: space-between;
+}
+.download-app-panel{
+    display: flex;
+    color: var(--white-color);
+    font-size: 2rem;
+}
+.fixed-button {
+    position: fixed;      
+    top: 50%;              
+    right: 20px;           
+    padding: 12px 20px;
+    background-color: #1d531f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transform: translateY(-50%) rotate(-90deg); 
+    transform-origin: right center;
+
+}
+.fixed-button-accessability{
+    position: fixed;      
+    top: 80%;                         
+    padding: 12px 20px;
+    background-color: #4231b0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transform-origin: left;
+}
+.heading-sign-in{
+    margin-top: 5%;
+    font-size: 2rem;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.pia-logo-image{
+    width: 10vw;
+}
+
+footer {
+
+    color: var(--Green-color);
+    padding: 30px 10%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+}
+
+a {
+    color: var(--Green-color);
+    text-decoration: none;
+    font-size: 1rem;
+}
+.input-filed-style{
+    height: 2.3rem;
+    width: 15rem;
+    margin: 5px;
+    border-radius: 5%;
+    border: none;
+}
+.sign-in-button{
+    background-color: var(--Green-color);
+    color: aliceblue;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    margin-left: 28rem;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.applestore-image{
+    margin-top: 2rem;
+}
+h3{
+    margin-left: 2.2em;
+}
+
+
