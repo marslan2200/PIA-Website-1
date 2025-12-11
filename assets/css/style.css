@@ -4,7 +4,6 @@
     --white-color:  rgb(255, 255, 255);
     --light-color: rgb(249, 245, 245);
 }
-
 .navbar {
   list-style-type: none;
   color: rgb(4, 74, 4);
@@ -12,9 +11,7 @@
   justify-content: space-between;
   font-weight: 700;
   overflow: hidden;
-
 }
-
 .login-button{
     background-color: var(--Green-color);
     color: aliceblue;
@@ -27,10 +24,7 @@
 .ticket-tabs{
     display: flex;
     margin-bottom: 2%;
-   
-
 }
-
 .tab-style {
     background-color:var(--Golden-brown);
     display: flex;
@@ -48,7 +42,6 @@
     width: 20%;
     margin-left: 5px;
 }
-
 .slider-image{
     position: relative;
 }
@@ -58,17 +51,14 @@
     left: 20%;
     top: 80%;
 }
-
 .from-dropdown, 
 .to-dropdown, 
 .depature-date, 
 .return-date{
     height: 2.5rem;
     width: 12rem;
-    margin: 5px;
-    
+    margin: 5px;   
 }
-
 .adult-dropdown, 
 .ticket-type-dropdown{
     height: 2.5rem;
@@ -79,7 +69,6 @@
     height: 2.5rem;
     width: 6rem;
     margin: 5px;
-    
 }
 .feature-list{
     margin-left: 2%;
@@ -99,7 +88,7 @@
 .service-card{
     background-color: var(--white-color);
     border-radius: 8%;
-    width: auto;
+    width: 21%;
     padding: 5px;
     height: 70%;   
 }
@@ -130,7 +119,6 @@
     margin-left: 6%;
     margin-right: 6%;
 }
-
 .news-card{
     background-color: var(--white-color);
     width: 100vw;
@@ -153,8 +141,6 @@
     padding-top: 15px;
     border-radius: 2%;
 }
-
-
 .download-app-panel{
     background-image: linear-gradient(to right, rgb(155, 155, 98), rgb(2, 60, 2));
     padding-left: 30px;
@@ -163,14 +149,12 @@
     width: 42vw;
     border-radius: 2%;
 }
-
 .iphone-image{
 
     margin-top: .9rem;
 }
 .news-main-panel{
     display: flex;
-
 }
 .signin-download-pannel{
     background-color: var(--light-color);
@@ -196,7 +180,6 @@
     border-radius: 8px;
     transform: translateY(-50%) rotate(-90deg); 
     transform-origin: right center;
-
 }
 .fixed-button-accessability{
     position: fixed;      
@@ -222,27 +205,21 @@
 .pia-logo-image{
     width: 10vw;
 }
-
 footer {
-
     color: var(--Green-color);
     padding: 30px 10%;
 }
-
 .footer-content {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
 ul {
     list-style-type: none;
 }
-
 li {
     margin: 5px;
 }
-
 a {
     color: var(--Green-color);
     text-decoration: none;
@@ -266,7 +243,6 @@ a {
     padding-bottom: 10px;
     border: none;
 }
-
 .applestore-image{
     margin-top: 2rem;
 }
